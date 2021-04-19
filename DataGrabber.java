@@ -1,5 +1,5 @@
 for(Object e : mc.theWorld.loadedEntityList) {
-	if (e instanceof EntityPlayer) {
+  if (e instanceof EntityPlayer) {
     if(((EntityPlayer) e).getName().equals(args[0])) {
      EntityPlayer p = (EntityPlayer) e;
      String cleanUUID = p.getUniqueID().toString().replaceAll("-", "");
